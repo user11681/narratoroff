@@ -17,5 +17,9 @@
 
     "mixins": [
         "narratoroff.mixins.json"
-    ]
+    ],
+
+    "custom": {
+        "modmenu:api": true
+    }
 }
