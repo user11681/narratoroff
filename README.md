@@ -7,6 +7,6 @@ repositories {
     maven{url = "https://auoeke.jfrog.io/artifactory/maven"}
 }
 dependencies {
-    modApi("user11681:narratoroff:latest.release")
+    modApi("user11681:narrator-off:latest.release")
 }
 ```
