@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "user11681.narratoroff.asm.mixin",
+    "plugin": "user11681.narratoroff.asm.NarratorOffTransformer",
+    "compatibilityLevel": "JAVA_8",
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

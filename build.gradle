@@ -1,0 +1,14 @@
+plugins {
+    id("wheel").version("0-SNAPSHOT")
+}
+
+group("user11681")
+version("0.0.1")
+
+wheel {
+    nospam = false
+}
+
+dependencies {
+    modInclude("unsafe")
+}
