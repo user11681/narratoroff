@@ -1,12 +1,12 @@
 plugins {
-    id("wheel").version("0-SNAPSHOT")
+    id("wheel-fabric").version("latest.integration")
 }
 
 group("user11681")
 version("0.0.1")
 
 wheel {
-    nospam = false
+    nospam = false // do not depend on narrator off (this mod) and noauth
 }
 
 dependencies {
